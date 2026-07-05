@@ -1,8 +1,7 @@
 import os
 from google import genai
 
-API_KEY = "YOUR_API_KEY_HERE"
-client = genai.Client(api_key=API_KEY)
+client = genai.Client()
 
 # 1. Memory Loop: Active in-memory array for chat history
 chat_history = []
